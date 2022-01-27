@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+font-family:'Roboto Slab';
+}
+
+body {
+    background-image: linear-gradient(to right, #710628, white, #093824);
+    }
+
+main {
+    background-color: rgba(255, 255, 255, 0.048);
+    width: 900px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.685);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    text-align: center;
+    padding: 20px 0px;
+}
+
+nav > a{
+    color: rgba(0, 0, 0, 0.555);
+    font-family: 'Roboto Slab', serif;
+    padding: 0px 80px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+nav > a:hover {
+    background-color: rgba(0, 0, 0, 0.288);
+    color: white;
+    padding:5px 10px;
+    border-radius: 3px;
+    transition-duration: 0.5s;
+}
+
+h1 {
+    color: rgba(0, 0, 0, 0.973);
+    text-align: center;
+    text-shadow: 1px 1px 5px black;
+}
+
+h2 {
+    color: black;
+    text-shadow: 5px 5px 4px #093824;
+    text-align: center;
+    }
+
+p {
+text-align: justify;
+text-indent: 30px;
+padding: 15px;
+font-weight: bolder;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+footer > p {
+    text-align: center;
+}
+
+footer a:hover {
+    background-color: rgba(0, 0, 0, 0.288);
+    color: white;
+    padding:5px 10px;
+    border-radius: 3px;
+    transition-duration: 0.5s;
+}
+
+footer > p > a {
+    padding: 10px;
+    color: black;
+    font-weight: bolder;
+    text-shadow: 1.3px 1.3px 0px rgba(0, 0, 0, 0.473);
+    text-decoration: underline;
+}
+
+.home {
+    color: black;
+    text-shadow: 1px 5px 5px black;
+}
+
+.registro {
+    color:#710628 ;
+}
+
+.quiz {
+    color: #093824;
+}
+
+
+.flu {
+    width: 150px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    border-radius: 5px;
+}
